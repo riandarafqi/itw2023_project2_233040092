@@ -133,19 +133,22 @@ body {
 /* About Section */
 .about,
 .menu,
-.contact{
+.contact,
+.visi{
     padding: 8rem 7% 1.4rem;
 }
 .about h2, 
 .menu h2,
-.contact h2{
+.contact h2,
+.visi h2{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
 }
 .about h2 span,
 .menu h2 span,
-.contact h2 span{
+.contact h2 span,
+.visi h2 span{
     color: var(--primary);
 }
 
@@ -181,11 +184,13 @@ body {
 
 /* Menu Section */
 .menu h2,
-.contact h2{
+.contact h2,
+.visi h2{
     margin-bottom: 1rem;
 }
 .menu p,
-.contact p{
+.contact p,
+.visi p{
     text-align: center;
     max-width: 30rem;
     margin: auto;
@@ -250,6 +255,13 @@ body {
     color: #fff;
     background-color: var(--primary);
     cursor: pointer;
+}
+
+/* Visi */
+.visi p{
+    /* background-color: red; */
+    font-weight: 600;
+    line-height: 40px;
 }
 
 /* Footer */
