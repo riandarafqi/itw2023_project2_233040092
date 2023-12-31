@@ -11,6 +11,9 @@
   border: none;
   text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -253,7 +256,7 @@ body {
 footer {
     background-color: var(--primary);
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0 3rem;
     margin-top: 3rem;
 }
 
@@ -264,9 +267,8 @@ footer .socials a{
     color: #fff;
     margin: 1rem;
 }
-fo
 footer .socials a:hover,
-footer .socials a:hover{
+footer .links a:hover{
     color: var(--bg);
 }
 footer .links {
@@ -276,7 +278,13 @@ footer .links a {
     color: #fff;
     padding: 0.7rem 1rem;
 }
-
+footer .credit {
+    font-size: 0.8rem;
+}
+footer .credit a{
+    color: var(--bg);
+    font-weight: 700;
+}
 
 /* Media Queries */
 /* Laptop */
